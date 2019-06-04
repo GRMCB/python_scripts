@@ -5,9 +5,6 @@ Created on Mon Jun 26 07:52:47 2018
 @author: gmcbrid
 """
 
-
-from flask import Flask
-
 import re
 
 def getValidHostRange(userIPAddress, userSubnetMask):
